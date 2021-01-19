@@ -29,7 +29,7 @@
     <OutputPath>F:\System Pc\Documenti\Klei\OxygenNotIncluded\mods\Dev\InsulatedDoor-dev\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>2</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
@@ -59,24 +59,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InsulatedPressureDoor\Insulate_OnPrefabInit.cs" />
-    <Compile Include="InsulatedPressureDoor\Insulate_OnSimDoorClosed.cs" />
+    <Compile Include="InsulatedManualPressureDoor\InsulatedManualPressureDoorConfig.cs" />
+    <Compile Include="InsulatedManualPressureDoor\InsulatedManualPressureDoorInfo.cs" />
+    <Compile Include="InsulatedManualPressureDoor\InsulatedManualPressureDoorTech.cs" />
+    <Compile Include="InsulatedManualPressureDoor\InsulatedManual_OnSpawn.cs" />
     <Compile Include="InsulatedPressureDoor\Insulated_OnSpawn.cs" />
-    <Compile Include="InsulatingUtility\insulatingDoor.cs" />
-    <Compile Include="InsulatedPressureDoor\Insulated_OnCleanUp.cs" />
-    <Compile Include="InsulatedPressureDoor\Insulated_OnSimDoorOpened.cs" />
+    <Compile Include="Localization\loc.cs" />
+    <Compile Include="TinyInsulatedManualPressureDoor\TinyInsulatedManualPressureDoorConfig.cs" />
+    <Compile Include="TinyInsulatedManualPressureDoor\TinyInsulatedManualPressureDoorInfo.cs" />
+    <Compile Include="TinyInsulatedManualPressureDoor\TinyInsulatedManualPressureDoorTech.cs" />
+    <Compile Include="TinyInsulatedManualPressureDoor\TinyInsulatedManual_OnSpawn.cs" />
+    <Compile Include="TinyInsulatedPressureDoor\TinyInsulated_OnSpawn.cs" />
+    <Compile Include="Utility\insulatingDoor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InsulatedPressureDoor\InsulatedPressureDoorTech.cs" />
     <Compile Include="InsulatedPressureDoor\InsulatedPressureDoorInfo.cs" />
     <Compile Include="InsulatedPressureDoor\InsulatedPressureDoorConfig.cs" />
-    <Compile Include="TinyInsulatedPressureDoor\TinyInsulate_OnPrefabInit.cs" />
-    <Compile Include="TinyInsulatedPressureDoor\TinyInsulated_OnCleanUp.cs" />
-    <Compile Include="TinyInsulatedPressureDoor\TinyInsulated_OnSimDoorOpened.cs" />
-    <Compile Include="TinyInsulatedPressureDoor\TinyInsulated_OnSpawn.cs" />
-    <Compile Include="TinyInsulatedPressureDoor\TinyInsulate_OnSimDoorClosed.cs" />
     <Compile Include="TinyInsulatedPressureDoor\TinyInsulatedPressureDoorConfig.cs" />
     <Compile Include="TinyInsulatedPressureDoor\TinyInsulatedPressureDoorInfo.cs" />
     <Compile Include="TinyInsulatedPressureDoor\TinyInsulatedPressureDoorTech.cs" />
+    <Compile Include="Utility\AnimFix_OnPrefabInit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\app.config" />
