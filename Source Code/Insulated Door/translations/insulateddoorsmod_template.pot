@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.DESC
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.DESC"
+msgid "The lowered thermal conductivity of insulated door slows any heat passing through them."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.EFFECT
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.EFFECT"
+msgid "Mantain temperature between two rooms"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.NAME
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.NAME"
+msgid "<link=\"INSULATEDMANUALPRESSUREDOOR\">Insulated Manual Airlock</link>"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.DESC
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.DESC"
+msgid "Tiny Mechanized Airlocks fitted for very tiny duplicant."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.EFFECT
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.EFFECT"
+msgid "Mantain temperature between two rooms"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.NAME
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.NAME"
+msgid "<link=\"INSULATEDPRESSUREDOOR\">Insulated Mechanized Airlock</link>"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.DESC
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.DESC"
+msgid "The lowered thermal conductivity of insulated door slows any heat passing through them."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.EFFECT
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.EFFECT"
+msgid "Mantain temperature between two rooms"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.NAME
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.NAME"
+msgid "<link=\"TINYINSULATEDMANUALPRESSUREDOOR\">`Tiny Insulated Manual Airlock</link>"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.DESC
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.DESC"
+msgid "Tiny Mechanized Airlocks fitted for very tiny duplicant."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.EFFECT
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.EFFECT"
+msgid "Mantain temperature between two rooms"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.NAME
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.NAME"
+msgid "<link=\"TINYINSULATEDPRESSUREDOOR\">Tiny Insulated Mechanized Airlock</link>"
+msgstr ""
+

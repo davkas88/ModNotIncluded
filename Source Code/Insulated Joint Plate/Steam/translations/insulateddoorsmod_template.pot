@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.DESC
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.DESC"
+msgid "Joint plates can run Heavi-Watt wires through walls without leaking gas or liquid."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT"
+msgid "Insulated version. Allows <link=\"HIGHWATTAGEWIRE\">Heavi-Watt Wire</link> to be run through wall and floor tile.\n\nFunctions as regular tile."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.NAME
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.NAME"
+msgid "<link=\"INSULATEDWIREBRIDGEHIGHWATTAGE\">Insulated Heavi-Watt Joint Plate</link>"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.DESC
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.DESC"
+msgid "Insulated Version. Joint plates can run Heavi-Watt wires through walls without leaking gas or liquid."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.EFFECT
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.EFFECT"
+msgid "Insulated Version. Carries more than a regular Insulate Heavi-Watt Joint Plate without overloading."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.NAME
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.NAME"
+msgid "<link=\"INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE\">Insulated Heavi-Watt Conductive Joint Plate</link>"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.DESC
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.DESC"
+msgid "Insulated Long Version. Joint plates can run Heavi-Watt wires through walls without leaking gas or liquid."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.EFFECT
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.EFFECT"
+msgid "Insulated Long Version. Carries more than a regular Insulate Heavi-Watt Joint Plate without overloading."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.NAME
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.NAME"
+msgid "<link=\"LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE\">Long Insulated Conductive Joint Plate</link>"
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.DESC
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.DESC"
+msgid "Joint plates can run Heavi-Watt wires through walls without leaking gas or liquid."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT"
+msgid "Insulated Long version. Allows <link=\"HIGHWATTAGEWIRE\">Heavi-Watt Wire</link> to be run through wall and floor tile.\n\nFunctions as regular tile."
+msgstr ""
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.NAME
+msgctxt "InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.NAME"
+msgid "<link=\"LONGINSULATEDWIREBRIDGEHIGHWATTAGE\">Long Insulated Heavi-Watt Joint Plate</link>"
+msgstr ""
+

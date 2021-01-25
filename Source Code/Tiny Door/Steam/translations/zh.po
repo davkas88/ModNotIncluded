@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: Translation by Davkas\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh\n"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC"
+msgid "Tiny Door, fitted for very tiny duplicant."
+msgstr "微型门，专为小型复制人设计"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT"
+msgid ""
+"Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or "
+"<link=\"ELEMENTSGAS\">Gas</link> flow.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"封闭区域，不能阻挡 <link=\"ELEMENTSLIQUID\">液体</link> 或 <link="
+"\"ELEMENTSGAS\">气体</link> 流动。\n"
+"\n"
+"野生 <link=\"CRITTERS\">小动物</link> 无法通过门。"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME"
+msgid "<link=\"TINYDOOR\">Tiny Pneumatic Door</link>"
+msgstr "<link=\"TinyDoor\">微型气动门</link>"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC"
+msgid "Tiny Manual Airlocks fitted for very tiny duplicant."
+msgstr "微型手动气闸，专为小型复制人设计"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT"
+msgid ""
+"Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</"
+"link> flow, maintaining pressure between areas.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"阻挡 <link=\"ELEMENTSLIQUID\">液体</link> 和 <link=\"ELEMENTSGAS\">气体</"
+"link> 流动，维持各区域间的压力。\n"
+"\n"
+"野生 <link=\"CRITTERS\">小动物</link> 无法通过门。"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME"
+msgid "<link=\"TINYMANUALPRESSUREDOOR\">Tiny Manual Airlock</link>"
+msgstr "<link=\"TinyManualPressureDoor\">微型手动气闸</link>"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC"
+msgid "Tiny Mechanized Airlocks fitted for very tiny duplicant."
+msgstr "微型机械气闸，专为小型复制人设计的门"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT"
+msgid ""
+"Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</"
+"link> flow, maintaining pressure between areas.\n"
+"\n"
+"Functions as a <link=\"TINYMANUALPRESSUREDOOR\">Manual Airlock</link> when "
+"no <link=\"POWER\">Power</link> is available.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"阻挡 <link=\"ELEMENTSLIQUID\">液体</link> 和 <link=\"ELEMENTSGAS\">气体</"
+"link> 流动， 维持各区域间的压力。\n"
+"\n"
+"没有<link=\"POWER\">电力</link>时作用与<link=\"TINYMANUALPRESSUREDOOR\">微型"
+"手动气闸</link>一致。\n"
+"\n"
+"野生<link=\"CRITTERS\">小动物</link> 无法通过门。"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME"
+msgid "<link=\"TINYPRESSUREDOOR\">Tiny Mechanized Airlock</link>"
+msgstr "<link=\"TinyPressureDoor\">微型机械气闸</link>"

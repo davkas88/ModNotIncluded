@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiny Door", "Tiny Door.csproj", "{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SpacedOutRelease|Any CPU = SpacedOutRelease|Any CPU
+		VanillaRelease|Any CPU = VanillaRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}.SpacedOutRelease|Any CPU.ActiveCfg = SpacedOutRelease|Any CPU
+		{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}.SpacedOutRelease|Any CPU.Build.0 = SpacedOutRelease|Any CPU
+		{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}.VanillaRelease|Any CPU.ActiveCfg = VanillaRelease|Any CPU
+		{B7A3B33A-8507-4CE6-A9F2-D1856928D2D7}.VanillaRelease|Any CPU.Build.0 = VanillaRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50377816-5E9F-478A-8918-06E8DB035AD9}
+	EndGlobalSection
+EndGlobal

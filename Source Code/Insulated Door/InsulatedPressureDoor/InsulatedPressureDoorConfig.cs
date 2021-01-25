@@ -5,6 +5,12 @@ using System.Collections.Generic;
 public class InsulatedPressureDoorConfig : IBuildingConfig
 {
     public const string ID = "InsulatedPressureDoor";
+    // Which build menu to add to
+    public const string menu = "Base";
+    // Which item in build menu to add after
+    public const string pred = "PressureDoor";
+    // Which tech tree entry to add to, "none" if no research is requried.
+    public const string tech = "HVAC";
 
     public override BuildingDef CreateBuildingDef()
     {

@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC"
+msgid "Tiny Door, fitted for very tiny duplicant."
+msgstr ""
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT"
+msgid "Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or <link=\"ELEMENTSGAS\">Gas</link> flow.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME"
+msgid "<link=\"TINYDOOR\">Tiny Pneumatic Door</link>"
+msgstr ""
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC"
+msgid "Tiny Manual Airlocks fitted for very tiny duplicant."
+msgstr ""
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT"
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME"
+msgid "<link=\"TINYMANUALPRESSUREDOOR\">Tiny Manual Airlock</link>"
+msgstr ""
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC"
+msgid "Tiny Mechanized Airlocks fitted for very tiny duplicant."
+msgstr ""
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT"
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nFunctions as a <link=\"TINYMANUALPRESSUREDOOR\">Manual Airlock</link> when no <link=\"POWER\">Power</link> is available.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME"
+msgid "<link=\"TINYPRESSUREDOOR\">Tiny Mechanized Airlock</link>"
+msgstr ""
+

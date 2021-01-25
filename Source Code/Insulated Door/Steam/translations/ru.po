@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: Translation by ME.XAH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.DESC
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.DESC"
+msgid ""
+"The lowered thermal conductivity of insulated door slows any heat passing "
+"through them."
+msgstr ""
+"Пониженная термопроводность изолированной двери замедляет прохождение тепла "
+"через нее."
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.EFFECT
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR."
+"EFFECT"
+msgid "Mantain temperature between two rooms"
+msgstr "Сохраняет температуру с обоих сторон двери"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.NAME
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDMANUALPRESSUREDOOR.NAME"
+msgid "<link=\"INSULATEDMANUALPRESSUREDOOR\">Insulated Manual Airlock</link>"
+msgstr ""
+"<link=\"InsulatedManualPressureDoor\">Изолированный Ручной Шлюз</link>"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.DESC
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.DESC"
+msgid "Tiny Mechanized Airlocks fitted for very tiny duplicant."
+msgstr ""
+"Пониженная термопроводность изолированной двери замедляет прохождение тепла "
+"через нее."
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.EFFECT
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.EFFECT"
+msgid "Mantain temperature between two rooms"
+msgstr "Сохраняет температуру с обоих сторон двери"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.NAME
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDPRESSUREDOOR.NAME"
+msgid "<link=\"INSULATEDPRESSUREDOOR\">Insulated Mechanized Airlock</link>"
+msgstr "<link=\"InsulatedPressureDoor\">Изолированный Авто Шлюз</link>"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.DESC
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR."
+"DESC"
+msgid ""
+"The lowered thermal conductivity of insulated door slows any heat passing "
+"through them."
+msgstr ""
+"Пониженная термопроводность изолированной двери замедляет прохождение тепла "
+"через нее."
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.EFFECT
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR."
+"EFFECT"
+msgid "Mantain temperature between two rooms"
+msgstr "Сохраняет температуру с обоих сторон двери"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR.NAME
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDMANUALPRESSUREDOOR."
+"NAME"
+msgid ""
+"<link=\"TINYINSULATEDMANUALPRESSUREDOOR\">`Tiny Insulated Manual Airlock</"
+"link>"
+msgstr ""
+"<link=\"TinyInsulatedManualPressureDoor\">Изолированный Ручной Мини Шлюз</"
+"link>"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.DESC
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.DESC"
+msgid "Tiny Mechanized Airlocks fitted for very tiny duplicant."
+msgstr ""
+"Пониженная термопроводность изолированной двери замедляет прохождение тепла "
+"через нее."
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.EFFECT
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.EFFECT"
+msgid "Mantain temperature between two rooms"
+msgstr "Сохраняет температуру с обоих сторон двери"
+
+#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.NAME
+msgctxt ""
+"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDPRESSUREDOOR.NAME"
+msgid ""
+"<link=\"TINYINSULATEDPRESSUREDOOR\">Tiny Insulated Mechanized Airlock</link>"
+msgstr ""
+"<link=\"TinyInsulatedPressureDoor\">Изолированный Авто Мини Шлюз</link>"

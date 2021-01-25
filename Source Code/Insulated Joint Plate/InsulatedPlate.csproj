@@ -31,18 +31,43 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'VanillaRelease|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\VanillaRelease\</OutputPath>
+    <DefineConstants>TRACE;VANILLA</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'SpacedOutRelease|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\SpacedOutRelease\</OutputPath>
+    <DefineConstants>TRACE;SPACED_OUT</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GameContentType Condition="'$(Configuration)' == 'VanillaRelease' Or '$(Configuration)' == 'VanillaDebug'">Vanilla</GameContentType>
+    <GameContentType Condition="'$(Configuration)' == 'SpacedOutRelease' Or '$(Configuration)' == 'SpacedOutDebug'">SpacedOut</GameContentType>
+    <BuildType Condition="'$(Configuration)' == 'VanillaRelease' Or '$(Configuration)' == 'SpacedOutRelease'">Release</BuildType>
+    <BuildType Condition="'$(Configuration)' == 'VanillaDebug' Or '$(Configuration)' == 'SpacedOutDebug'">Debug</BuildType>
+    <LibFolder>..\..\..\..\LibONI\$(GameContentType)</LibFolder>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>F:\System Pc\Documenti\Klei\OxygenNotIncluded\mods\Mods_dev\0Harmony.dll</HintPath>
+      <HintPath>$(LibFolder)\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>F:\System Pc\Documenti\Klei\OxygenNotIncluded\mods\Mods_dev\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(LibFolder)\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>F:\System Pc\Documenti\Klei\OxygenNotIncluded\mods\Mods_dev\Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>$(LibFolder)\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,34 +77,20 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>F:\System Pc\Documenti\Klei\OxygenNotIncluded\mods\Mods_dev\UnityEngine.dll</HintPath>
+      <HintPath>$(LibFolder)\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>F:\System Pc\Documenti\Klei\OxygenNotIncluded\mods\Mods_dev\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(LibFolder)\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InsulatedPlates.cs" />
     <Compile Include="InsulatingUtility\insulatingPlate.cs" />
     <Compile Include="Localization\loc.cs" />
-    <Compile Include="LongInsulatedWireBridgeHighWattage\LongInsulatedWireBridgeHighWattage_OnSpawn.cs" />
     <Compile Include="LongInsulatedWireBridgeHighWattage\LongInsulatedWireBridgeHighWattageConfig.cs" />
-    <Compile Include="LongInsulatedWireBridgeHighWattage\LongInsulatedWireBridgeHighWattagenfo.cs" />
-    <Compile Include="LongInsulatedWireBridgeHighWattage\LongInsulatedWireBridgeHighWattageTech.cs" />
     <Compile Include="LongInsulatedWireRefinedBridgeHighWattage\LongInsulatedRefinedWireBridgeHighWattageConfig.cs" />
-    <Compile Include="LongInsulatedWireRefinedBridgeHighWattage\LongInsulatedRefinedWireBridgeHighWattageInfo.cs" />
-    <Compile Include="LongInsulatedWireRefinedBridgeHighWattage\LongInsulatedRefinedWireBridgeHighWattageTech.cs" />
     <Compile Include="InsulatedWireRefinedBridgeHighWattage\InsulatedWireRefinedBridgeHighWattageConfig.cs" />
-    <Compile Include="InsulatedWireRefinedBridgeHighWattage\InsulatedWireRefinedBridgeHighWattageInfo.cs" />
-    <Compile Include="InsulatedWireRefinedBridgeHighWattage\InsulatedWireRefinedBridgeHighWattageTech.cs" />
-    <Compile Include="LongInsulatedWireRefinedBridgeHighWattage\LongInsulatedRefinedWireBridgeHighWattage_OnSpawn.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="InsulatedWireBridgeHighWattage\InsulatedWireBridgeHighWattageTech.cs" />
-    <Compile Include="InsulatedWireBridgeHighWattage\InsulatedWireBridgeHighWattageInfo.cs" />
     <Compile Include="InsulatedWireBridgeHighWattage\InsulatedWireBridgeHighWattageConfig.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\app.config" />
-    <None Include="Properties\packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

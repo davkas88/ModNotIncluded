@@ -5,6 +5,12 @@ using UnityEngine;
 public class TinyDoorConfig : IBuildingConfig
 {
     public const string ID                                                           = "TinyDoor";
+    // Which build menu to add to
+    public const string menu = "Base";
+    // Which item in build menu to add after
+    public const string pred = "Door";
+    // Which tech tree entry to add to, "none" if no research is requried.
+    public const string tech = "none";
 
     public override BuildingDef CreateBuildingDef()
     {

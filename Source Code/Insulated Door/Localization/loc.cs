@@ -1,191 +1,54 @@
-﻿using System;
-using Harmony;
+﻿using Harmony;
+using System;
+using System.IO;
+using System.Reflection;
+using static Localization;
 
-
-namespace InsulatedManualPressureDoor_Loc
+namespace InsulatedDoorsMod
 {
-    [HarmonyPatch(typeof(Db), "Initialize")]
-    public static class Db_Initialize_Patch
+    [HarmonyPatch(typeof(Localization), "Initialize")]
+    public static class Loc_Initialize_Patch
     {
-        public static void Prefix()
+        public static void Postfix() => Translate(typeof(STRINGS));
+
+        public static void Translate(Type root)
         {
-            Type ObjectType = Type.GetType("InsulatedManualPressureDoor_Loc", false, false);
-            string ObjectID = InsulatedManualPressureDoorConfig.ID.ToUpperInvariant();
-            Localization.Locale locale = Localization.GetLocale();
+            // Basic intended way to register strings, keeps namespace
+            RegisterForTranslation(root);
 
-            if (locale != null && locale.Code == "ru")
+            // Load user created translation files
+            string mypath = LoadStrings();
+
+            // Register strings without namespace
+            // because we already loaded user translations, custom languages will overwrite these
+            LocString.CreateLocStringKeys(root, null);
+
+            // Creates template for users to edit
+            GenerateStringsTemplate(root, mypath);
+        }
+
+        private static string LoadStrings()
+        {
+            // Figure out where the mod loaded from
+            string myPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            // translations in mod root
+            int archivedMod = myPath.IndexOf("archived_versions");
+            string modPath;
+            if (archivedMod != -1)
             {
-                // Translation by ME.XAH
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME",
-                    "<link=\"InsulatedManualPressureDoor\">Изолированный Ручной Шлюз</link>");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC",
-                    "Пониженная термопроводность изолированной двери замедляет прохождение тепла через нее.");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT",
-                    "Сохраняет температуру с обоих сторон двери");
+                modPath = myPath.Substring(0, archivedMod - 1);
             }
-
-            if (locale != null && locale.Code == "zh")
-            {
-                
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME",
-                    "<link=\"InsulatedManualPressureDoor\">隔热手动气闸</link>");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC",
-                    "隔热门的导热系数降低，减慢热量通过它们的速度。");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT",
-                    "保持门两侧的温度");
-            }
-
             else
             {
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME");
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC");
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT");
-
+                modPath = myPath;
             }
+            string path = Path.Combine(modPath, "translations");
+            // Pick up game localization settings and match to mod translation files
+            string file = Path.Combine(path, GetLocale()?.Code + ".po");
+            if (File.Exists(file))
+                OverloadStrings(LoadStringsFile(file, false));
+            return path;
         }
-    }
-}
 
-namespace TinyInsulatedManualPressureDoor_Loc
-{
-    [HarmonyPatch(typeof(Db), "Initialize")]
-    public static class Db_Initialize_Patch
-    {
-        public static void Prefix()
-        {
-            Type ObjectType = Type.GetType("TinyInsulatedManualPressureDoor_Loc", false, false);
-            string ObjectID = TinyInsulatedManualPressureDoorConfig.ID.ToUpperInvariant();
-            Localization.Locale locale = Localization.GetLocale();
-
-            if (locale != null && locale.Code == "ru")
-            {
-                // Translation by ME.XAH
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME",
-                    "<link=\"TinyInsulatedManualPressureDoor\">Изолированный Ручной Мини Шлюз</link>");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC",
-                    "Пониженная термопроводность изолированной двери замедляет прохождение тепла через нее.");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT",
-                    "Сохраняет температуру с обоих сторон двери");
-            }
-
-            if (locale != null && locale.Code == "zh")
-            {
-                
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME",
-                    "<link=\"InsulatedManualPressureDoor\">微型隔热手动气闸</link>");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC",
-                    "隔热门的导热系数降低，减慢热量通过它们的速度。");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT",
-                    "保持门两侧的温度");
-            }
-
-            else
-            {
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME");
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC");
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT");
-
-            }
-        }
-    }
-}
-
-namespace TinyInsulatedPressureDoor_Loc
-{
-    [HarmonyPatch(typeof(Db), "Initialize")]
-    public static class Db_Initialize_Patch
-    {
-        public static void Prefix()
-        {
-            Type ObjectType = Type.GetType("TinyInsulatedPressureDoor_Loc", false, false);
-            string ObjectID = TinyInsulatedPressureDoorConfig.ID.ToUpperInvariant();
-            Localization.Locale locale = Localization.GetLocale();
-
-            if (locale != null && locale.Code == "ru")
-            {
-                // Translation by ME.XAH
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME",
-                    "<link=\"TinyInsulatedPressureDoor\">Изолированный Авто Мини Шлюз</link>");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC",
-                    "Пониженная термопроводность изолированной двери замедляет прохождение тепла через нее.");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT",
-                    "Сохраняет температуру с обоих сторон двери");
-            }
-
-            if (locale != null && locale.Code == "zh")
-            {
-                
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME",
-                    "<link=\"InsulatedManualPressureDoor\">微型隔热机械气闸</link>");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC",
-                    "隔热门的导热系数降低，减慢热量通过它们的速度。");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT",
-                    "隔热门的导热系数降低，减慢热量通过它们的速度。");
-            }
-
-            else
-            {
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME");
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC");
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT");
-
-            }
-        }
-    }
-}
-
-namespace InsulatedPressureDoor_Loc
-{
-    [HarmonyPatch(typeof(Db), "Initialize")]
-    public static class Db_Initialize_Patch
-    {
-        public static void Prefix()
-        {
-            Type ObjectType = Type.GetType("InsulatedPressureDoor_Loc", false, false);
-            string ObjectID = InsulatedPressureDoorConfig.ID.ToUpperInvariant();
-            Localization.Locale locale = Localization.GetLocale();
-
-            if (locale != null && locale.Code == "ru")
-            {
-                // Translation by ME.XAH
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME",
-                    "<link=\"InsulatedPressureDoor\">Изолированный Авто Шлюз</link>");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC",
-                    "Пониженная термопроводность изолированной двери замедляет прохождение тепла через нее.");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT",
-                    "Сохраняет температуру с обоих сторон двери");
-            }
-
-            if (locale != null && locale.Code == "zh")
-            {
-                
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME",
-                    "<link=\"InsulatedManualPressureDoor\">隔热机械气闸</link>");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC",
-                    "隔热门的导热系数降低，减慢热量通过它们的速度。");
-                Strings.Add($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT",
-                    "隔热门的导热系数降低，减慢热量通过它们的速度。");
-            }
-
-            else
-            {
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.NAME");
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.DESC");
-
-                Strings.Get($"STRINGS.BUILDINGS.PREFABS.{ObjectID}.EFFECT");
-
-            }
-        }
     }
 }

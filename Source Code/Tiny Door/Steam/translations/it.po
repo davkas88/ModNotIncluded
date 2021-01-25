@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it\n"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC"
+msgid "Tiny Door, fitted for very tiny duplicant."
+msgstr "Una Porta Piccola fatta per Duplicanti veramente piccolo."
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT"
+msgid ""
+"Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or "
+"<link=\"ELEMENTSGAS\">Gas</link> flow.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"Delimita due aree senza bloccare il flusso di <link=\"ELEMENTSLIQUID"
+"\">Liquidi</link> e <link=\"ELEMENTSGAS\">Gas</link>.\n"
+"\n"
+"Le <link=\"CRITTERS\">Creature</link> selvatiche non possono attraversare le "
+"porte."
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME"
+msgid "<link=\"TINYDOOR\">Tiny Pneumatic Door</link>"
+msgstr "<link=\\\"TinyDoor\\\">Porta Pneumatica Piccola</link>"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC"
+msgid "Tiny Manual Airlocks fitted for very tiny duplicant."
+msgstr "Una Porta Stagna Piccola fatta per Duplicanti veramente piccolo."
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT"
+msgid ""
+"Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</"
+"link> flow, maintaining pressure between areas.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"Blocca il flusso di <link=\"ELEMENTSLIQUID\">Liquidi</link> e <link="
+"\"ELEMENTSGAS\">Gas</link>, mantenendo invariati i livelli di pressione di "
+"aree diverse.\n"
+"\n"
+"Le <link=\"CRITTERS\">Creature</link> selvatiche non posso attraversare le "
+"porte."
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME"
+msgid "<link=\"TINYMANUALPRESSUREDOOR\">Tiny Manual Airlock</link>"
+msgstr "<link=\"TinyManualPressureDoor\">Porta Stagna Piccola</link>"
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC"
+msgid "Tiny Mechanized Airlocks fitted for very tiny duplicant."
+msgstr "Una Porta Stagna Piccola fatta per Duplicanti veramente piccolo."
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT"
+msgid ""
+"Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</"
+"link> flow, maintaining pressure between areas.\n"
+"\n"
+"Functions as a <link=\"TINYMANUALPRESSUREDOOR\">Manual Airlock</link> when "
+"no <link=\"POWER\">Power</link> is available.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"Blocca il flusso di <link=\"ELEMENTSLIQUID\">Liquidi</link> e <link="
+"\"ELEMENTSGAS\">Gas</link>, mantenendo invariati i livelli di pressione di "
+"aree diverse.\n"
+"\n"
+"Funziona come una <link=\"TinyManualPressureDoor\">Porta Stagna Piccola</"
+"link> quando non c'è <link=\"POWER\">Energia</link> disponibile.\n"
+"\n"
+"Le <link=\"CRITTERS\">Creature</link> selvatiche non posso attraversare le "
+"porte."
+
+#. TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME
+msgctxt "TinyDoorsMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME"
+msgid "<link=\"TINYPRESSUREDOOR\">Tiny Mechanized Airlock</link>"
+msgstr "<link=\"TinyPressureDoor\">Porta Stagna Meccanizzata Piccola</link>"

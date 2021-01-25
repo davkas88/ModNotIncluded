@@ -1,0 +1,117 @@
+
+Changes for DLC
+===============
+
+I have updated your mods to support the current version of Spaced Out DLC,
+and made a number of other small changes. Here is an overview:
+
+Main loader
+-----------
+I created a file in each mod that does the main patching and loading.
+In Tiny Door it is called tinydoors.cs, similar in the other mods.
+The file is in the root of the project, easy to spot.
+
+That file consolidates the Info and Tech loading for both DLC and vanilla.
+For the buildings that required OnSpawn() patches, I added it in that file
+too. This means that each building folder now contains only one file, the
+configuration. In the top of the configuration I added a few parameters
+for loading into the build menu and tech tree. This means the configuration
+files hold all details except the STRINGs, see Localization below.
+
+DLC Compatibility
+-----------------
+I replaced the patching for new buildings with Db.Initialize patches. That
+is currently the preferred way. Vanilla game requires a prefix() patch,
+whereas DLC requires a postfix(). The tech tree loading has also changed
+in DLC, but both vanilla and DLC prefer postfix() so that is what I did.
+
+That is handled by two helper functions in the same file. Sorry, I learned
+to code back in the 1980's so this with each tiny class in a separate file
+is not the way I am used to doing it :)
+
+I also cleaned up the name spaces, mainly because it was needed for the
+localization to work efficiently. I consolidated the OnSpawn() functions
+within each mod, because having put everything else together I saw no need
+for those to be in a separate file any longer.
+
+Localization
+------------
+I replaced your localization system with the in-game one. Now users
+can simply open a translation template in the translations folder,
+and create a translation file with POEdit.
+
+The localization code is identical across the 3 mods, except for the name
+space. This makes it easy if you one day decide to make additional mods,
+there is nothing in the Loc.cs file that needs changing apart from the
+name space.
+
+You set up the strings you want in the main loader, for example
+tinydoors.cs, and then the Loc.cs generates a translation template in
+the translations folder (.pot file), which translators can open directly
+with POedit, just like translations work in the main game.
+
+When the user selects a language in the game, the mod STRINGS get
+translated automatically by the game, as long as there is a matching
+.po file in the translation folder of the mod.
+
+I converted the existing translations into zh.po and ru.po files, along
+with an it.po file and a partial es.po file in the mods that had those
+languages built in. The Spanish translation only covered one of the
+Insulated Joint Plates, so the rest of that file is open for addition.
+
+The translators you credited in the source code are likewise credited
+in the .po files.
+
+Compiling the mods
+------------------
+Because the DLC specific code has to be linked against DLC assemblies,
+whereas vanilla code is linked against the vanilla versions of the same
+assemblies, I had to hack the csproj files a bit. I added new build
+targets which use a bit of logic to select which assembly files to
+reference. To adapt it to your system you can edit the
+<LibFolder>..\..\..\..\LibONI\$(GameContentType)</LibFolder> to point
+to where you have your assemblies. In the LibONI folder you should have
+a "SpacedOut" and a "Vanilla" folder, with the appropriate files of
+each version.
+
+Changing between each target in VS can be done as you usually would
+switch between Release and Debug. There were a large amount of game DLL
+files being included, so I cleaned up the references for those as well.
+It is of course not good form to distribute actual parts of the game :)
+
+Compiling results in the output DLL file in the SpacedOut or Vanilla
+folders in the obj directory. The vanilla one goes into the
+archived_version\vanilla folder, whereas the SpacedOut goes in the main
+mod folder directly. The mod_info.yaml files are simple, you do not
+need to change those.
+
+Other details
+-------------
+I noticed you had some fix files that were not being compiled in. I
+simply left those as they were. The mods still do exactly the same as
+your originals, I did not alter any functionality.
+
+Uploading the mods
+------------------
+Since the DLC the mods are required to document their compatibilities
+in a mod_info.yaml file. I have created a full directory structure in
+each mod called "Steam" that is ready to upload. For the actual upload
+process, you need to update the Oxygen Not Included Uploader.
+
+I can understand if you want to compile the mods yourself, so see the
+details above.
+
+If you just want to update quickly, then simply point Oxygen Not
+Included Updater to each the Steam folder in each mod directory, and
+deselct everything except the first option. Then your description
+and pictures etc remain the same, and only the mods themselves are
+updated.
+
+Credits
+-------
+I have not put my name in any of the source files. If you want to give
+credit, you can mention my name "Michael Dam Olsen" on the workshop
+page for the mod. I don't mind either way. I love your mods, and
+wanted myself and others to be able to enjoy them on the DLC as well.
+Hope you will be able to update Steam soon! Let me know on github if
+you have any questions or issues.
