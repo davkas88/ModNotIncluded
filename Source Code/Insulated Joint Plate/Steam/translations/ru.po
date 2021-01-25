@@ -14,9 +14,9 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Language: ru\n"
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.DESC
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.DESC
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE."
 "DESC"
 msgid ""
 "Joint plates can run Heavi-Watt wires through walls without leaking gas or "
@@ -25,9 +25,9 @@ msgstr ""
 "Сединительная пластина позволяет провести электричество через стены минуя "
 "газы, или жидкости."
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE."
 "EFFECT"
 msgid ""
 "Insulated version. Allows <link=\"HIGHWATTAGEWIRE\">Heavi-Watt Wire</link> "
@@ -38,9 +38,9 @@ msgstr ""
 "Изолированная версия.Проводит ток через стены.Функционирует как и обычная "
 "версия."
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.NAME
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE.NAME
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREBRIDGEHIGHWATTAGE."
 "NAME"
 msgid ""
 "<link=\"INSULATEDWIREBRIDGEHIGHWATTAGE\">Insulated Heavi-Watt Joint Plate</"
@@ -49,9 +49,9 @@ msgstr ""
 "<link=\"InsulatedWireBridgeHighWattage\">Изолированная Соединительная "
 "Пластина</link>"
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.DESC
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.DESC
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.DESC"
 msgid ""
 "Insulated Version. Joint plates can run Heavi-Watt wires through walls "
@@ -60,18 +60,18 @@ msgstr ""
 "Изолированная версия. Сединительная пластина позволяет провести "
 "электричество через стены минуя газы, или жидкости."
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.EFFECT
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.EFFECT
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.EFFECT"
 msgid ""
 "Insulated Version. Carries more than a regular Insulate Heavi-Watt Joint "
 "Plate without overloading."
 msgstr "Изолированная версия. Проводит больше тока чем обычная версия."
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.NAME
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.NAME
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE.NAME"
 msgid ""
 "<link=\"INSULATEDWIREREFINEDBRIDGEHIGHWATTAGE\">Insulated Heavi-Watt "
@@ -80,9 +80,9 @@ msgstr ""
 "<link=\"InsulatedWireRefinedBridgeHighWattage\">Изолированная Соединительная "
 "Пластина II</link>"
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.DESC
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.DESC
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.DESC"
 msgid ""
 "Insulated Long Version. Joint plates can run Heavi-Watt wires through walls "
@@ -91,9 +91,9 @@ msgstr ""
 "Изолированная длинная версия. Сединительная пластина позволяет провести "
 "электричество через стены минуя газы, или жидкости."
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.EFFECT
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.EFFECT
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.EFFECT"
 msgid ""
 "Insulated Long Version. Carries more than a regular Insulate Heavi-Watt "
@@ -102,9 +102,9 @@ msgstr ""
 "Изолированная длинная версия. Проводит больше тока чем обычная версия, "
 "только длинее."
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.NAME
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.NAME
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE.NAME"
 msgid ""
 "<link=\"LONGINSULATEDREFINEDWIREBRIDGEHIGHWATTAGE\">Long Insulated "
@@ -113,9 +113,9 @@ msgstr ""
 "<link=\"LongInsulatedRefinedWireBridgeHighWattage\">Длинная Изолированная "
 "Пластина II</link>"
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.DESC
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.DESC
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "LONGINSULATEDWIREBRIDGEHIGHWATTAGE.DESC"
 msgid ""
 "Joint plates can run Heavi-Watt wires through walls without leaking gas or "
@@ -124,9 +124,9 @@ msgstr ""
 "Сединительная пластина позволяет провести электричество через стены минуя "
 "газы, или жидкости."
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "LONGINSULATEDWIREBRIDGEHIGHWATTAGE.EFFECT"
 msgid ""
 "Insulated Long version. Allows <link=\"HIGHWATTAGEWIRE\">Heavi-Watt Wire</"
@@ -137,9 +137,9 @@ msgstr ""
 "Изолированная длинная версия. Проводит ток через стены. Функционирует как и "
 "обычная версия, только длинее."
 
-#. InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.NAME
+#. InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS.LONGINSULATEDWIREBRIDGEHIGHWATTAGE.NAME
 msgctxt ""
-"InsulatedDoorsMod.STRINGS.BUILDINGS.PREFABS."
+"InsulatedPlatesMod.STRINGS.BUILDINGS.PREFABS."
 "LONGINSULATEDWIREBRIDGEHIGHWATTAGE.NAME"
 msgid ""
 "<link=\"LONGINSULATEDWIREBRIDGEHIGHWATTAGE\">Long Insulated Heavi-Watt Joint "
