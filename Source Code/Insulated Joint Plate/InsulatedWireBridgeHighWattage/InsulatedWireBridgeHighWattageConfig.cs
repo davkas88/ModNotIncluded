@@ -4,6 +4,13 @@ using UnityEngine;
 public class InsulatedWireBridgeHighWattageConfig : IBuildingConfig
 {
     public const string ID = "InsulatedWireBridgeHighWattage";
+    // Which build menu to add to
+    public const string menu = "Power";
+    // Which item in build menu to add after
+    public const string pred = "WireBridgeHighWattage";
+    // Which tech tree entry to add to, "none" if no research is requried.
+    public const string tech = "AdvancedPowerRegulation";
+
 
     protected virtual string GetID()
     {

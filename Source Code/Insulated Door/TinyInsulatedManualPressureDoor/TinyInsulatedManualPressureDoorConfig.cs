@@ -4,6 +4,12 @@ using UnityEngine;
 public class TinyInsulatedManualPressureDoorConfig : IBuildingConfig
 {
     public const string ID = "TinyInsulatedManualPressureDoor";
+    // Which build menu to add to
+    public const string menu = "Base";
+    // Which item in build menu to add after
+    public const string pred = "InsulatedManualPressureDoor";
+    // Which tech tree entry to add to, "none" if no research is requried.
+    public const string tech = "TemperatureModulation";
 
     public override BuildingDef CreateBuildingDef()
     {
