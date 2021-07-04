@@ -1,0 +1,11 @@
+Changes for Harmony 2.0
+-----------------------
+
+I have replaced all reference instances of Harmony with HarmonyLib and changed the target framework to .NET 4.8 as
+per the ONI Harmony 2.0 changelog. I have also updated mod_info.yaml to reflect the changes with Harmony 2.0. They are
+as follows:
+
+Updated the minimum supported build number to a recent build (required).
+Added a mod version number (not necessary but useful).
+Added Harmony's API version (required).
+
