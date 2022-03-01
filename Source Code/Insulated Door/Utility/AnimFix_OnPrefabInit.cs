@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 //without game crash
 [HarmonyPatch(typeof(Door), "OnPrefabInit")]
 internal class AnimDoor_Door_OnPrefabInit

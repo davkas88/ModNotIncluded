@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using static STRINGS.UI;
 using Database;
 using System.Collections.Generic;
@@ -73,23 +73,8 @@ namespace InsulatedDoorsMod
     {
         public static void doorBuildMenu(string door, string menu, string pred)
         {
-            int index = TUNING.BUILDINGS.PLANORDER.FindIndex(x => x.category == menu);
-            if (index < 0)
-                return;
-            else
-            {
-                IList<string> data = TUNING.BUILDINGS.PLANORDER[index].data as IList<string>;
-                int num = -1;
-                foreach (string str in (IEnumerable<string>)data)
-                {
-                    if (str.Equals(pred))
-                        num = data.IndexOf(str);
-                }
-                if (num == -1)
-                    return;
-                else
-                    data.Insert(num + 1, door);
-            }
+            // Use officially supported call to add to the build menu, making pred unused.
+            ModUtil.AddBuildingToPlanScreen(menu, door);
         }
 
         public static void doorTechTree(string door, string group)
