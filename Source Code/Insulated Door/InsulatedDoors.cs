@@ -122,26 +122,26 @@ namespace InsulatedDoorsMod
                 public class INSULATEDMANUALPRESSUREDOOR
                 {
                     public static LocString NAME = FormatAsLink("Insulated Manual Airlock", InsulatedManualPressureDoorConfig.ID);
-                    public static LocString DESC = "The lowered thermal conductivity of insulated door slows any heat passing through them.";
-                    public static LocString EFFECT = "Mantain temperature between two rooms";
+                    public static LocString DESC = "Insulated airlocks can quarter off dangerous areas and reduce heat transfer.";
+                    public static LocString EFFECT = $"Blocks {FormatAsLink("Liquid", "ELEMENTS_LIQUID")} and {FormatAsLink("Gas", "ELEMENTS_GAS")} flow and reduces {FormatAsLink("Heat", "HEAT")} transfer between rooms, maintaining pressure and ambient heat between areas.\n\nWild {FormatAsLink("Critters", "CRITTERS")} cannot pass through doors.";
                 }
                 public class INSULATEDPRESSUREDOOR
                 {
                     public static LocString NAME = FormatAsLink("Insulated Mechanized Airlock", InsulatedPressureDoorConfig.ID);
-                    public static LocString DESC = "Tiny Mechanized Airlocks fitted for very tiny duplicant.";
-                    public static LocString EFFECT = "Mantain temperature between two rooms";
+                    public static LocString DESC = "Insulated mechanized airlocks open and close more quickly than other types of door.";
+                    public static LocString EFFECT = $"Blocks {FormatAsLink("Liquid", "ELEMENTS_LIQUID")} and {FormatAsLink("Gas", "ELEMENTS_GAS")} flow and reduces {FormatAsLink("Heat", "HEAT")} transfer between rooms, maintaining pressure and ambient heat between areas.\n\nFunctions as an {FormatAsLink("Insulated Manual Airlock", "INSULATEDMANUALPRESSUREDOOR")} when no {FormatAsLink("Power", "POWER")} is available.\n\nWild {FormatAsLink("Critters", "CRITTERS")} cannot pass through doors.";
                 }
                 public class TINYINSULATEDMANUALPRESSUREDOOR
                 {
-                    public static LocString NAME = FormatAsLink("`Tiny Insulated Manual Airlock", TinyInsulatedManualPressureDoorConfig.ID);
-                    public static LocString DESC = "The lowered thermal conductivity of insulated door slows any heat passing through them.";
-                    public static LocString EFFECT = "Mantain temperature between two rooms";
+                    public static LocString NAME = FormatAsLink("Tiny Insulated Manual Airlock", TinyInsulatedManualPressureDoorConfig.ID);
+                    public static LocString DESC = "Insulated airlocks can quarter off dangerous areas and reduce heat transfer.";
+                    public static LocString EFFECT = $"Blocks {FormatAsLink("Liquid", "ELEMENTS_LIQUID")} and {FormatAsLink("Gas", "ELEMENTS_GAS")} flow and reduces {FormatAsLink("Heat", "HEAT")} transfer between rooms, maintaining pressure and ambient heat between areas.\n\nWild {FormatAsLink("Critters", "CRITTERS")} cannot pass through doors.";
                 }
                 public class TINYINSULATEDPRESSUREDOOR
                 {
                     public static LocString NAME = FormatAsLink("Tiny Insulated Mechanized Airlock", TinyInsulatedPressureDoorConfig.ID);
-                    public static LocString DESC = "Tiny Mechanized Airlocks fitted for very tiny duplicant.";
-                    public static LocString EFFECT = "Mantain temperature between two rooms";
+                    public static LocString DESC = "Insulated mechanized airlocks open and close more quickly than other types of door.";
+                    public static LocString EFFECT = $"Blocks {FormatAsLink("Liquid", "ELEMENTS_LIQUID")} and {FormatAsLink("Gas", "ELEMENTS_GAS")} flow and reduces {FormatAsLink("Heat", "HEAT")} transfer between rooms, maintaining pressure and ambient heat between areas.\n\nFunctions as a {FormatAsLink("Tiny Insulated Manual Airlock", "TINYINSULATEDMANUALPRESSUREDOOR")} when no {FormatAsLink("Power", "POWER")} is available.\n\nWild {FormatAsLink("Critters", "CRITTERS")} cannot pass through doors.";
                 }
             }
         }
